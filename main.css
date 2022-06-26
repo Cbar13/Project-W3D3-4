@@ -1,46 +1,80 @@
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+}
 * {
     margin: 0;
     Padding: 0;
-    font-family: 'Railway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
 }
-Body {
-    padding-top: 90px;
+body {
     background-color: darkgrey;
 }
+a {
+    text-decoration: none;
+}
+
 nav {
     display: flex;
     position: fixed;
     width: 100%;
     top: 0;
-    text-decoration: underline;
 }
 
 .nav-left { 
     flex-grow: 1 ;
-    background-color: red;
-    padding: 15px;
+    padding: 10px;
     margin-top: 15px;
     margin-left: 15px;
-    text-decoration: solid underline;
+    border-bottom: 2px solid aliceblue;
 }
 
 .nav-right {
     justify-content: right;
-    background-color: aqua;
-    padding: 15px;
+    padding: 10px;
     margin-top: 15px;
     margin-right: 15px;
+    border-bottom: 2px solid aliceblue;
+}
+
+.con-0 {
+    padding-top: 200px;
+   width: auto;
+   height: 450px;
+   background-image: url('/images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg');
+   min-width: 0;
+   min-height: 0;
 }
 
 h1 {
     text-align: center;
-width: 100%;
+    font-size: 80px;
+    width: 100%;
+    margin-bottom: 30px;
 }
+
 h2 { 
     text-align: center;
+    font-size: 50px;
+    font-weight: 10;
     width: 100%;
+    margin-top: 30px;
 }
-.container-1 {
 
-    background-color: aqua;
+.con-1 {
+    display: flex;
+    background-color: black;
+}
+
+.con-2 {
+    display: flex;
+    background-color: black;
+    justify-content: right;
+}
+
+.freshest-hr {
+    width: 33%;
+    margin: 0 auto;
+    display: block;
 }
