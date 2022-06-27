@@ -13,6 +13,7 @@ body {
 }
 a {
     text-decoration: none;
+
 }
 
 nav {
@@ -39,10 +40,12 @@ nav {
 }
 
 .con-0 {
-    padding-top: 200px;
+    padding-top: 250px;
    width: auto;
-   height: 450px;
-   background-image: url('/images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg');
+   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg');
+   background-size: cover;
+   background-position: center bottom;
+   background-repeat: no-repeat;
    min-width: 0;
    min-height: 0;
 }
@@ -60,6 +63,7 @@ h2 {
     font-weight: 10;
     width: 100%;
     margin-top: 30px;
+    padding-bottom: 250px;
 }
 
 .con-1 {
@@ -69,8 +73,18 @@ h2 {
 
 .con-2 {
     display: flex;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     justify-content: right;
+}
+
+.con-3 {
+    display: flex;
+    background-color: rgb(30, 30, 30);
+}
+
+.side-text {
+   flex-grow: 1;
+
 }
 
 .freshest-hr {
