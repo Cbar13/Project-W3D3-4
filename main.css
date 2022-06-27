@@ -13,7 +13,6 @@ body {
 }
 a {
     text-decoration: none;
-
 }
 
 nav {
@@ -66,6 +65,16 @@ h2 {
     padding-bottom: 250px;
 }
 
+h3 {
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter ;
+}
+
 .con-1 {
     display: flex;
     background-color: black;
@@ -84,7 +93,7 @@ h2 {
 
 .side-text {
    flex-grow: 1;
-
+    margin: 70px;
 }
 
 .freshest-hr {
